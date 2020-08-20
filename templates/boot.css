@@ -1,0 +1,18 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+body {
+margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+
+
+.jumbotron{
+color: #FFFFFF ;
+font-weight: normal;
+min-height: 150px;
+background-color:#0F17DC;
+}
+form {
+  text-align: center;
+}

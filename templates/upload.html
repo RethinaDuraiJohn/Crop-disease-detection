@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+margin-top: 00px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+.jumbotron {
+    color: #FFFFFF;
+    font-weight: normal;
+    min-height: 300px;
+    background-color: #6610f2;
+    font-size: 3vw;
+}
+form {
+  text-align: center;
+}
+    </style>
+    <div class="container center_div">
+    <div class="jumbotron">
+    <h1 align="center"></br></br><font size="1000">CROP DISEASE DETECTION</font></br></h1>
+      </div>
+</head>
+   <body></br></br>
+	<h1 align="center"></br></br></br></br></br></br></br></br><font size="40">Upload the affected files here</font></h1>
+	</br></br></br></br> </br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+		<form  action = "http://192.168.43.189:5000/uploader" method = "POST"  enctype = "multipart/form-data">
+         	<input style="height:200px;font-size:36pt;" align="center" type = "file" name = "file"/> </br></br></br></br></br></br> </br></br></br></br></br></br></br></br></br>
+         	<input style="height:100px;font-size:36pt;width: 200px" align="center" type = "submit"/>
+        </form>
+   </body>
+</html>
